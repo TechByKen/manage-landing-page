@@ -12,7 +12,10 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
   </head>
   <body>
-    <nav class="navbar justify-content-center mt-3 navbar-expand-sm">
+    <!-- navbar -->
+    <nav
+      class="navbar justify-content-center mt-3 navbar-expand-lg bg-light navbar-light"
+    >
       <div class="container m-3">
         <a href="#" class="nav-brand"
           ><img src="images/logo.svg" alt="manage logo"
@@ -29,7 +32,7 @@
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav me-auto justify-content-center mb-2 mb-lg-0">
+          <ul class="navbar-nav mx-auto">
             <li class="nav-item">
               <a href="" class="nav-link">Pricing</a>
             </li>
@@ -47,10 +50,35 @@
             </li>
           </ul>
           <div class="ml-auto">
-            <button class="btn bg-warning rounded-4">Get Started</button>
+            <button class="btn bg-warning rounded-5">Get Started</button>
           </div>
         </div>
       </div>
     </nav>
+    <!-- Showcase -->
+    <section class="bg-light text-dark p-5 text-center">
+      <div class="container">
+        <div class="d-sm-flex">
+          <div>
+            <h1>
+              <span class="text-warning">Bring everyone</span> together to build
+              better products
+            </h1>
+            <p class="lead">
+              Manage makes it simple for software teams to plan day-to-day tasks
+              while keeping the larger team goals in view.
+            </p>
+            <button class="btn btn-warning btn-lg rounded-5">
+              Get Started
+            </button>
+          </div>
+          <img
+            class="img-fluid w-50"
+            src="images/illustration-intro.svg"
+            alt="illustration intro"
+          />
+        </div>
+      </div>
+    </section>
   </body>
 </html>
