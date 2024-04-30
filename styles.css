@@ -1,5 +1,5 @@
-.bg {
-  background-image: url(images/bg-simplify-section-desktop.svg);
-  background-size: cover;
-  width: 100%;
+@media (min-width: 768px) {
+  .news-input {
+    width: 50%;
+  }
 }
